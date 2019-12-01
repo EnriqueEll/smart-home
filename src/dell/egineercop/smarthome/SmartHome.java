@@ -1,5 +1,7 @@
 package dell.egineercop.smarthome;
 
+import static java.lang.System.out;
+
 public class SmartHome {
 
     public void run() {
@@ -12,7 +14,7 @@ public class SmartHome {
             }else{
                 lightBulb211.turnOff();
             }
-            lightBulb211.isOn();
+            out.println(lightBulb211.isOn());
         }
     }
 }
